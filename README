@@ -1,0 +1,56 @@
+jhonygal8
+yonatan gal
+204292999
+
+I discussed this exercise with gil grimberg and miri aframov.
+I also used the site stackoverflow.com.
+
+
+===================================
+=  README for ex8: sudoku and stuff  =
+===================================
+
+==================
+=  Description:  =
+==================
+
+in this exercise we wrote a program which solves sudoku boards, and we've also
+wrote 3 variations of the function k_subset which we saw in the tirgul.
+
+I'll describe the functions i wrote:
+
+1. find_empty_cells(board, i, j) - this function searches for empty spots in the
+   board, and returns the index of the spot.
+
+2. is_value_valid(board, i, j, num): this function checks if a given num is
+   valid in the spot board[i][j].
+
+3. solve_sudoku(board, i=0, j=0): this function is the recursive function
+   which uses the previous functions and solves the sudoko.
+
+now we have the 3 variations of the k_subsets function:
+
+1. print_k_subsets(n, k): this is the version that we've seen in the tirgul.
+   given a number n, and a number k <= n, the function prints
+   all subsets of {0,…,n-1} of size exactly k.
+
+2. fill_k_subsets(n, k, lst): given an empty lst, we fill it with all possible
+   subsets of {0,...n-1} of size exactly k.
+
+3. return_k_subsets(n, k): in this version we returned every possible subset of
+   size of exactly k, but we did it without using any list as an argument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
